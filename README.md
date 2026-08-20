@@ -20,7 +20,7 @@ Aplicação Full Stack completa para gerenciamento de funcionários, projetada p
 ## 🛠️ Tecnologias Utilizadas
 
 ### **Backend**
-* **Java 25** (Recursos modernos da linguagem e POO)
+* **Java 21** (Recursos modernos da linguagem e POO)
 * **Spring Boot** (Spring Web, Spring Data JPA)
 * **PostgreSQL** (Banco de dados relacional para persistência de dados)
 * **Lombok** (Injeção de dependências e eliminação de código boilerplate)
