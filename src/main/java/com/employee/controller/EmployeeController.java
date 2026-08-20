@@ -27,17 +27,17 @@ public class EmployeeController {
         return ResponseEntity.ok(employeeService.getAllEmployee());
     }
 
-    @GetMapping("/employees/{employeeId}")
+    @GetMapping("/employee/{employeeId}")
     public ResponseEntity<EmployeeEntity> getEmployeeById(@PathVariable("employeeId") Long employeeId) {
         return ResponseEntity.ok(employeeService.getEmployeeById(employeeId));
     }
 
-    @PostMapping("/employees")
+    @PostMapping("/employee")
     public ResponseEntity<EmployeeEntity> createEmployee(@RequestBody EmployeeEntity employee) {
         return ResponseEntity.ok(employeeService.addEmployee(employee));
     }
 
-    @PatchMapping("/employees/{employeeId}")
+    @PatchMapping("/employee/{employeeId}")
     public ResponseEntity<EmployeeEntity> updateEmployee(@RequestBody EmployeeEntity employee,@PathVariable("employeeId") Long employeeId) {
         EmployeeEntity empObj = employeeService.getEmployeeById(employeeId);
         if(empObj != null) {
@@ -48,7 +48,7 @@ public class EmployeeController {
         return ResponseEntity.ok(employeeService.updateEmployee(empObj));
     }
 
-    @DeleteMapping("/employees/{employeeId}")
+    @DeleteMapping("/employee/{employeeId}")
     public ResponseEntity<String> updateEmployee(@PathVariable("employeeId") Long employeeId) {
 
         EmployeeEntity empObj = employeeService.getEmployeeById(employeeId);
