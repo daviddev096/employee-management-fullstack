@@ -1,0 +1,16 @@
+# Frontend (React/Vite)
+**/node_modules/
+**/dist/
+**/.env
+
+# Backend (Spring Boot/Maven)
+**/target/
+**/.mvn/
+*.class
+
+# Editor / SO
+.idea/
+*.iml
+.vscode/
+.DS_Store
+backEnd/.metadata/
