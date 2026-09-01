@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+# Frontend (React/Vite)
+**/node_modules/
+**/dist/
+**/.env
+
+# Backend (Spring Boot/Maven)
+**/target/
+**/.mvn/
+*.class
+
+# Editor / SO
+.idea/
+*.iml
+.vscode/
+.DS_Store
+backEnd/.metadata/
+=======
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+>>>>>>> 68ef15993d3544ed3b0f21d2ce77b528b77bfa96
