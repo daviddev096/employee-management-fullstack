@@ -143,10 +143,4 @@ http://localhost:5173
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
-
----
-
 Feito com 💻 e ☕ por David Alves.
